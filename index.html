@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemuel Thomas - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        h3 {
+            color: #777;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .resume-section {
+            margin-bottom: 30px;
+        }
+
+        .skills-list {
+            column-count: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LEMUEL THOMAS</h1>
+        <p>Winder, GA · 706-983-3324 · lemuel.thomas3@gmail.com</p>
+        <p><a href="https://linkedin.com/in/lemuel-thomas/" target="_blank">linkedin.com/in/lemuel-thomas</a> · <a
+                href="https://github.com/LemuelThomas" target="_blank">github.com/LemuelThomas</a></p>
+    </header>
+
+    <section class="resume-section">
+        <h2>PROFESSIONAL SUMMARY</h2>
+        <p>
+            Dedicated and results-driven Cloud Engineer with a strong foundation in Linux and Networking. Extensive
+            experience in Amazon Web Services with expertise in automation and CI-CD. Skilled in designing and optimizing
+            databases and storage solutions in the cloud environment. Proficient in Terraform for infrastructure as code
+            and a keen focus on security practices, along with extensive hands-on experience on AWS services. Committed to
+            delivering robust, scalable, and secure cloud solutions for clients.
+        </p>
+    </section>
+
+    <section class="resume-section">
+        <h2>SKILLS</h2>
+        <ul class="skills-list">
+            <li>Terraform</li>
+            <li>Python</li>
+            <li>Amazon Web Services</li>
+            <li>GitHub Actions</li>
+            <li>Grafana</li>
+            <li>Linux</li>
+            <li>Databases</li>
+            <li>Ansible</li>
+        </ul>
+    </section>
+
+    <section class="resume-section">
+        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <h3>SITE RELIABILITY ENGINEER, JPMORGAN CHASE</h3>
+        <p>TAMPA, FL · AUGUST 2022 – JUNE 2023</p>
+        <ul>
+            <li>Created canaries using Java, Selenium, and Cucumber to reduce the need for manual testing by over 90%
+                across the firm resulting in an improvement of test coverage by 50%.</li>
+            <li>Implemented canaries as Cron jobs in Kubernetes to execute controlled and automated tests during deployments for a reliable way to test and monitor application deployments.</li>
+            <li>Leveraged Jenkins as the CI/CD platform to automate the testing and deployment of canaries for an efficient and automated way to manage Continuous Integration and Continuous Deployment (CI/CD) for canaries to improve the deployment process.</li>
+            <li>Made a visualization using Grafana boards to display a deep understanding of system performance trends and anomalies that provided insights to improve system reliability and scalability.</li>
+            <li>Created Grafana dashboards for a visual representation of data and metrics for monitoring and analysis which enabled better data monitoring and analysis.</li>
+            <li>Employed Kubernetes logs in conjunction with Splunk to facilitate log management and analysis to face challenges in tracking and analyzing logs and data in a Kubernetes environment for deployed canaries which resulted in understanding and evidence of problems in canaries to debug.</li>
+
+            
+        </ul>
+    </section>
+
+    <section class="resume-section">
+        <h2>PROJECTS</h2>
+        <h3>EVOLVING WORDPRESS FROM SINGLE EC2 INSTANCE TO A FULLY ELASTIC SCALABLE ARCHITECTURE</h3>
+        <ul>
+            <li>Built server manually to experience and understand all of the different components needed to produce the
+                WordPress app.</li>
+            <li>Creating a launch template to provide automatic provisioning of the WordPress app</li>
+            <li>Moving the MySQL database and content off the EC2 instance and placing it in a dedicated RDS instance and EFS respectively</li>
+            <li>Provision an ASG and have an ELB point at it, which will result in the system to be fully resilient, self-healing and scalable.</li>
+            
+        </ul>
+        <h3>STAR-STREAM APPLICATION PROJECT</h3>
+        <ul>
+            <li>Took initiative to build the API pipeline, streamlining the process for continuous integration and deployment of the jar file into Elastic Beanstalk (EB) which significantly improved the deployment efficiency and reduced time required for updates and changes to the application.</li>
+            <li>Designed and implemented a UI pipeline using CodePipeline and deploying the app ui into S3 hosted as a static website that led to an easily accessible front-end enhancing user experience and engagement.</li>
+            <li>Utilized AWS to set up Relational Database Service (RDS) with PostgreSQL, ensuring data storage and retrieval was efficient and secure to meet the need of the Star-Stream application to store and manage data.</li>
+            <li>Displayed the user information for the PostgreSQL database on the webpage in user friendly manner. Employed React and Typescript to create a dynamic user interface that effectively displayed user information from the database.</li>
+        </ul>
+        <h3>CLOUD RESUME</h3>
+        <ul>
+            <li>Uploaded front-end code into S3 bucket to host resume website a static website</li>
+            <li>Used CloudFront and ACM for the resume website to have HTTPS using TLS for security while also registering a R53 custom domain to attach to my CloudFront distribution.</li>
+            <li>Created a DynamoDB table and Lambda function to provide a view counter that could be seen on the webpage using Javascript</li>
+            <li>Built a GitHub Actions pipeline for continuous integration and delivery to AWS S3 bucket from GitHub repo</li>
+        </ul>
+        
+    </section>
+
+    <section class="resume-section">
+        <h2>EDUCATION</h2>
+        <h3>DECEMBER 2021 – DECEMBER 2024</h3>
+        <p>AWS SOLUTIONS ARCHITECT – ASSOCIATE CERTIFICATION</p>
+        <ul>
+            <li>Issuing Organization: Amazon Web Services (AWS)</li>
+            <li>Date Earned: December 2021</li>
+        </ul>
+        <!-- Add details for other education experiences as needed -->
+    </section>
+
+</body>
+
+</html>
