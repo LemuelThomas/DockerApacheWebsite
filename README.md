@@ -8,7 +8,7 @@ Clone my branch and run these following commands:
 ```
 docker build -t apache .
 ```
-This will build the image and add a tag called apache
+This will build the image and add a name called apache
 <br><br>
 ```
 docker run -dit --rm --name docker-resume apache
