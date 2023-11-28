@@ -1,5 +1,7 @@
 # DockerApacheWebsite
-Created a dockerized apache website hosting my very own resume!
+
+|   I created a dockerized apache website hosting my very own resume!   |
+|:-----------------:|
 
 Want to see?
 Clone my branch and run these following commands:
